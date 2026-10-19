@@ -1,0 +1,175 @@
+.card-contador {
+  max-width: 450px;
+  margin: 30px auto;
+  padding: 25px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+}
+
+.card-contador h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.display-caixas {
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s;
+}
+
+.display-caixas.status-normal {
+  background-color: #e8f0fe;
+  border: 2px solid #1a73e8;
+  color: #1a73e8;
+}
+
+.display-caixas.status-alerta {
+  background-color: #fef08a;
+  border: 2px solid #eab308;
+  color: #854d0e;
+}
+
+.display-caixas.status-completo {
+  background-color: #fecaca;
+  border: 2px solid #ef4444;
+  color: #991b1b;
+}
+
+.numero-contador {
+  font-size: 64px;
+  font-weight: bold;
+  display: block;
+}
+
+.capacidade-maxima {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.texto-aviso {
+  margin: 10px 0 0 0;
+  font-size: 15px;
+  font-weight: bold;
+  color: #854d0e;
+}
+
+.badge-fechado {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #dc2626;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.campo-passo {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.campo-passo label {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.campo-passo input {
+  width: 70px;
+  padding: 8px;
+  font-size: 16px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.botoes-contagem {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.btn-menos,
+.btn-mais {
+  width: 70px;
+  height: 50px;
+  font-size: 26px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.btn-menos {
+  background-color: #e2e8f0;
+  color: #333;
+}
+
+.btn-mais {
+  background-color: #1a73e8;
+  color: white;
+}
+
+.btn-menos:disabled,
+.btn-mais:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.area-zerar {
+  margin-bottom: 25px;
+}
+
+.btn-zerar {
+  width: 100%;
+  padding: 12px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #475569;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-zerar:hover {
+  background-color: #334155;
+}
+
+.registro-ultimo-lote {
+  border-top: 1px solid #eee;
+  padding-top: 15px;
+  background-color: #f8fafc;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.registro-ultimo-lote h3 {
+  font-size: 15px;
+  margin: 0 0 8px 0;
+  color: #555;
+}
+
+.valor-ultimo-lote {
+  margin: 0;
+  font-size: 18px;
+  color: #111;
+}
+
+.sem-lote {
+  margin: 0;
+  font-size: 13px;
+  color: #888;
+}
